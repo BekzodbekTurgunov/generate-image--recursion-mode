@@ -20,7 +20,7 @@ async function createRecursiveImage(imageFilePath) {
     drawImageRecursively(4, 0, 0, canvas.width, deltaX);
 
     const fs = require('fs');
-    const out = fs.createWriteStream(__dirname + '/finish.png');
+    const out = fs.createWriteStream(__dirname + '/recursive.png');
     const stream = canvas.createPNGStream();
     stream.pipe(out);
     out.on('finish', () => console.log('The PNG file was created.'));

@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/BekzodbekTurgunov/generate-image--recursion-mode#readme",
   "dependencies": {
-    "canvas": "^2.11.0"
+    "canvas": "^2.11.0",
+    "telegraf": "^4.11.2"
   }
 }
