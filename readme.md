@@ -12,7 +12,7 @@ To use this application, you'll need to have Node.js and npm (Node Package Manag
 2. Navigate to the repository directory and run `npm install` to install the required dependencies.
 
 ### Usage
-1. Enter the path of your image in the createRecursiveImage function
+1. Enter the path of your image in the createRecursiveImage function in app.js
 2. To create a recursive image, run the following command in your terminal:
 
  `node app.js`
